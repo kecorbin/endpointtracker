@@ -31,6 +31,6 @@ Clone the repository
 
 Modify setup.sh with the appropriate values for 
 
-APIC_IP=10.10.10.10
-APIC_USERNAME=admin
-APIC_PASSWORD=password
+     APIC_IP=10.10.10.10
+     APIC_USERNAME=admin
+     APIC_PASSWORD=password

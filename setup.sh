@@ -1,8 +1,8 @@
 #!/bin/bash
 
-APIC_IP=10.94.140.72
+APIC_IP=10.10.10.10
 APIC_USERNAME=admin
-APIC_PASSWORD=ins3965!
+APIC_PASSWORD=password
 
 #build the required nodes
 #sudo docker build --no-cache --tag db db && sudo docker build --no-cache -t app app && sudo docker build --no-cache -t web web && sudo docker build --no-cache -t viz viz

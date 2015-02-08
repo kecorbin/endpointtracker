@@ -39,3 +39,6 @@ Run setup.sh
 
      chmod +x setup.sh
      ./setup.sh
+
+
+Check out the pages at http://127.0.0.1:5000 and http://127.0.0.1:5001

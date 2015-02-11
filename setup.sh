@@ -5,7 +5,7 @@ APIC_USERNAME=admin
 APIC_PASSWORD=password
 
 #build the required nodes
-#sudo docker build --no-cache --tag db db && sudo docker build --no-cache -t app app && sudo docker build --no-cache -t web web && sudo docker build --no-cache -t viz viz
+sudo docker build --no-cache --tag db db && sudo docker build --no-cache -t app app && sudo docker build --no-cache -t web web && sudo docker build --no-cache -t viz viz
 
 #launch the db node
 sudo docker run -d --name db db

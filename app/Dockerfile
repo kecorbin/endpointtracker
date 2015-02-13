@@ -9,4 +9,5 @@ WORKDIR /opt
 RUN git clone https://github.com/datacenter/acitoolkit
 WORKDIR acitoolkit
 RUN python setup.py install
-
+WORKDIR /opt/acitoolkit/applications/endpointtracker
+CMD ["python aci-endpoint-tracker.py -u https://10.94.140.72 -l admin -p ins3965! -i db -a root -s ''" ]

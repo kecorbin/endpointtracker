@@ -1,8 +1,8 @@
 #!/bin/bash
 
-APIC_IP=10.94.140.72
+APIC_IP=10.1.1.1
 APIC_USERNAME=admin
-APIC_PASSWORD=ins3965!
+APIC_PASSWORD=password
 
 #build the required nodes
 
